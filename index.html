@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Toy Dog - Cppedia</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
     </ul>
 
     <H2><b><i>Stats</i></b></H2>
-   <table class="center">
+    <table class="center">
         <thead>
             <th><b>Name</b></th>
             <th><b>Weight</b></th>
@@ -76,11 +77,11 @@
             <td><i>14</i></td>
         </tr>
     </table>
-    
+
 
 
     <div>
-        <h2>Join the Community by Registering</h2>
+        <h2 id="cmnty">Join the Community by Registring</h2>
         <form action="/Users/">
             <div>
                 <label for="email"><b>Enter your email:</b></label>
@@ -121,13 +122,12 @@
                 <input type="radio" name="Breed" id="Lhasa_Apso" value="Lhasa_Apso">
             </div>
             <div>
-                <h2><Label for="Breed">Select your Breed:</Label>
-                    <select name="Breed" id="Breed">
+                <h2><Label for="Gender">Gender:</Label>
+                    <select name="Gender" id="Gender">
                         <option value="">Select one</option>
-                        <option value="ShihTzu">ShihTzu</option>
-                        <option value="Pug">Pug</option>
-                        <option value="Poodle">Poodle</option>
-                        <option value="Lhasa_Apso">Lhasa Apso</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
                 </h2>
                 </select>
             </div>
@@ -135,7 +135,7 @@
 
                 <input type="checkbox" name="Agree" id="tandc"></div>
             <Label for="tandc">I agree to all terms and conditions</Label><br>
-            <button " type="submit">
+            <button type="submit" id="submit" class="submit">
                 <h2>Submit</h2>
                 </b>
             </button>
