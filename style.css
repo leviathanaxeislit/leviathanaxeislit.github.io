@@ -69,6 +69,7 @@ body {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   text-align: center;
+  
 }
 h1,
 h2,
@@ -112,6 +113,8 @@ label {
   -webkit-text-fill-color: transparent;
   font-weight: 400%;
   font-family: Comfortaa, cursive;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .carousel-control-next,
