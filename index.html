@@ -15,20 +15,23 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-xl navbar-light sticky-top" style="
+    <nav class="navbar navbar-light navbar-expand-xl sticky-top" style="
   background: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74); backdrop-filter: blur(10px);">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Cppedia</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLight" aria-controls="navbarLight" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse show" id="navbarLight">
+    <div class="collapse navbar-collapse " id="navbarLight">
       <ul class="navbar-nav me-auto mb-2 mb-xl-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#breeds">Breeds</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#email">Register</a>
         </li>
       </ul>
     </div>
@@ -42,7 +45,7 @@
     small and very small breeds of dog
       <hr class="my-4">
     </p></div></div>
-    <div class="container-fluid row" ><p>
+    <div class="container-fluid row" ><p class="text-wrap">
       Toy dog traditionally refers to a very small dog or a grouping of small
       and very small breeds of dog. A toy dog may be of any of various dog
       types. Types of dogs referred to as toy dogs may include spaniels,
@@ -51,7 +54,7 @@
   </p></div>
     <div class="container-fluid">
       <h2 class="rounded">Small Dogs</h2>
-    <p>
+    <p class="text-wrap">
       Dogs found in the Toy Group of breed registries may be of the very ancient
       lapdog type, or they may be small versions of hunting dogs or working
       dogs, bred down in size for a particular kind of work or to create a pet
@@ -62,7 +65,7 @@
    <div class="container-fluid"> 
      <h2>History</h2>
     <div class="col-m">
-      <p>
+      <p class="text-wrap">
       Most major dog clubs in the English-speaking world have a toy group, under
       one exact name or another, in which they place breeds of dog that the
       kennel club categorizes as toy, based on size and tradition. The Kennel
@@ -147,10 +150,7 @@
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           />
         </div>
-        <div>
-          <label for="color"><b>Select a Color:</b></label>
-          <input type="color" id="color" name="color" />
-        </div>
+      
         <div>
           <label for="datetime"><b>Select Date And Time:</b></label>
           <input type="datetime-local" id="datetime" name="datetime" />
